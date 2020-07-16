@@ -1,0 +1,5 @@
+$setServerVar[captchaativa;<:desativado:670747221079228446>]
+$resetServerVar[captchaativa1]
+O captcha do servidor foi desativado <:desativado:670747221079228446>
+$modifyChannel[670391804507455499;🎾¦Ping: $pingMs;Top;no;1]
+$onlyAdmin[<:nao:670746079033163816> Você não tem perm para usar esse comando]
