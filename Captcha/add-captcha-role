@@ -1,0 +1,7 @@
+$nomention
+$setServerVar[captcharole;<:sim:670746050650439708> <@&$mentionedRoles[1]>]
+$description[<:sim:670746050650439708> Você ativou para quando alguém preencher o captcha receber essa TAG = <@&$mentionedRoles[1]>]
+$color[000001]
+$setServerVar[captcharole1;$mentionedRoles[1]]
+$onlyAdmin[<:nao:670746079033163816> Você não tem perm para usar esse comando]
+$argsCheck[>1;<:nao:670746079033163816> Você precisa colocar `*add-captcha-role {@role}`]
