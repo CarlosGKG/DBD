@@ -1,0 +1,16 @@
+$nomention
+$title[Captcha]
+$description[Olá essa é uma função de segurança para o seu servidor.
+O que seria isso? O usuário preenche a captcha no servidor, o mesmo receberá um determinado cargo em seu servidor, você pode personalizar o cargo que desejar nas minhas configurações.
+
+**Ativar o comando** 
+`*ativar-captcha Ou *desativar-captcha` = Só ative se você tiver preenchido tudo aí em baixo. Status de ativação = $getServerVar[captchaativa]
+
+**Adicionar a Role**
+`*add-captcha-role {@role}` = Quando a pessoa preencher o captcha ela receberá essa Role. Role adicionada = **$getServerVar[captcharole]**
+
+**Canal de captcha**
+`*add-captcha-canal {#canal}` = Esse é o canal aonde a pessoa poderá usar os comandos de captcha. Canal = **$getServerVar[captchacanal]**
+
+**Comandos para Captcha**
+`*captcha` = Ele receberá um código para por no canal aonde você escolheu.
