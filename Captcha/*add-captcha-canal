@@ -1,0 +1,7 @@
+$nomention
+$setServerVar[captchacanal;<:sim:670746050650439708> <#$mentionedChannels[1]>]
+$setServerVar[captchacanal2;$mentionedChannels[1]]
+$description[<:sim:670746050650439708> Você ativou para poder usar os comandos de captcha no canal = *$message[1]*]
+$color[000001]
+$onlyAdmin[<:nao:670746079033163816> Você não tem perm para usar esse comando]
+$argsCheck[>1;<:nao:670746079033163816> Você precisa colocar `*add-captcha-canal {#canal}`]
