@@ -1,0 +1,12 @@
+$title[CAPTCHA VERIFICAR]
+$color[000001]
+$description[Esse é seu código de CAPTCHA
+**Use **`*verificar {código}`
+**no canal $getServerVar[captchacanal].**]
+$setUserVar[captcha;$randomString[8]]
+$onlyForServers[$getServerVar[captchaativa1];<:nao:670746079033163816> O sistema de captcha não está ativado nesse servidor, para ativar digite `*check-captcha`]
+$onlyForChannels[$getServerVar[captchacanal2];<:nao:670746079033163816> Você tem que coloca esse comando no canal **$getServerVar[captchacanal]**]
+$deletecommand
+$deleteIn[45s]
+$footer[Você tem 45 segundos]
+$image[https://flamingtext.com/net-fu/proxy_form.cgi?script=tagline-logo&text=$randomString[8]&_loc=generate&imageoutput=true]
