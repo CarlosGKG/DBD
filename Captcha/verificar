@@ -1,0 +1,11 @@
+$nomention
+$onlyIf[$message==$getUserVar[captcha];Desculpe, você escreveu o código captcha errado]
+$title[✅VERIFICADO]
+$color[000001]
+$description[Parabéns!, Agora você está verificado!]
+$giveRole[$authorID;$getServerVar[captcharole1]]
+$deleteIn[10s]
+$deletecommand
+$onlyForServers[$getServerVar[captchaativa1];<:nao:670746079033163816> O sistema de captcha não está ativado nesse servidor, para ativar digite `*check-captcha`]
+$onlyForChannels[$getServerVar[captchacanal2];<:nao:670746079033163816> Você tem que coloca esse comando no canal **$getServerVar[captchacanal]**]
+$argsCheck[>1;Você precisa colocar `*verificar {código}`]
